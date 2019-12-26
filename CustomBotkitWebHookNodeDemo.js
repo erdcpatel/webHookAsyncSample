@@ -50,7 +50,7 @@ module.exports = {
 	on_webhook      : function(requestId, data, componentName, callback) {
 		console.log("###request id: " + requestId);
 		var context = data.context;
-		if (componentName === 'hookCallAPIFromBotkit') {
+		if (componentName === '<enter your webhook component name here>') {
 		  var api = null;
 		  console.log("on_webhook ==> calling API for hookCallAPIFromBotkit");
 		console.log("wait on... " + new Date());
