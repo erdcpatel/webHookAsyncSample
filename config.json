@@ -1,0 +1,22 @@
+{
+    "server": {
+        "port": 8003
+    },
+    "app": {
+        "apiPrefix" : "/webhooktest",
+        "url": "http://localhost"
+    },
+    "credentials": {
+        "apikey": "XXXXXXXXXXX",
+        "appId": "cs-XXXXXXXXXX"
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": true
+    },
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
