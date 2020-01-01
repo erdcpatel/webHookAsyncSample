@@ -3,12 +3,12 @@
         "port": 8003
     },
     "app": {
-        "apiPrefix" : "/webhooktest",
-        "url": "http://localhost"
+        "apiPrefix" : "",
+        "url": "https://cd320fa3.ngrok.io"
     },
     "credentials": {
-        "apikey": "XXXXXXXXXXX",
-        "appId": "cs-XXXXXXXXXX"
+        "apikey": "177FFbeYrYA8PDbbipAWCHt1pSkUeqMjb6je97ctX/s=",
+        "appId": "cs-d4573e1a-5772-513c-a681-4eb4971fa01f"
     },
     "redis": {
         "options": {
